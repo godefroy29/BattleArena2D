@@ -25,9 +25,9 @@ GameObject:
   - component: {fileID: 54183210919600390}
   - component: {fileID: 122767548246712106}
   - component: {fileID: 114916052523211652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BulletAlly
-  m_TagString: Untagged
+  m_TagString: bulletAlly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,6 +7,7 @@ TagManager:
   - Fire
   - block
   - enemy
+  - bulletAlly
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - BulletAlly
   - 
   - 
   - 
