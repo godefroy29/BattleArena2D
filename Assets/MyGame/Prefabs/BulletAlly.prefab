@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33838754441150314}
   - component: {fileID: 135897810596067532}
   - component: {fileID: 23769759411454560}
-  - component: {fileID: 114760508126548818}
   - component: {fileID: 54183210919600390}
   - component: {fileID: 122767548246712106}
+  - component: {fileID: 114916052523211652}
   m_Layer: 0
   m_Name: BulletAlly
   m_TagString: Untagged
@@ -101,7 +101,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114760508126548818
+--- !u!114 &114916052523211652
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -109,14 +109,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1360778082422206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d71ba7f93708b384b9bd151d2466906e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b7430d13ee86a64ba8dfa378c2e00de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cible: {fileID: 0}
-  moveSpeed: 1
-  startPosObject: {fileID: 0}
-  addX: 0
-  addY: 0
 --- !u!122 &122767548246712106
 Halo:
   m_ObjectHideFlags: 1
