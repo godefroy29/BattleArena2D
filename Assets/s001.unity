@@ -753,8 +753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1360778082422206, guid: 3f6e6c443c2478049bb5599cadff61b5, type: 2}
-  moveSpeed: 10
   bulletSpeed: 5
+  speedJump: 0.5
+  moveSpeed: 10
   addX: 0.5
   fireDelayMillisec: 500
 --- !u!1 &1069286017
