@@ -23,6 +23,7 @@ public class PlayerControl : MonoBehaviour {
         if((System.DateTime.Now - lastFiredBullet).TotalMilliseconds >= fireDelayMillisec)
         {
             GameObject bulletInstance = Instantiate(bullet, new Vector3(transform.position.x + directionX * addX, transform.position.y,0), Quaternion.Euler(new Vector3(0, 0, 0)));
+            Physics.IgnoreCollision(bulletInstance.GetComponent<Collider>(), GetComponent<Collider>());
             bulletInstance.GetComponent<Rigidbody>().velocity = new Vector3(directionX * 1,0,0) * bulletSpeed;
             Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(),  GetComponent<Collider2D>());
             lastFiredBullet = System.DateTime.Now;
