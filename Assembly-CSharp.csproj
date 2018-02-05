@@ -58,6 +58,7 @@
      <Compile Include="Assets\MyGame\Scripts\Projectile_Ally.cs" />
      <Compile Include="Assets\MyGame\Weapons\_Main\Weapon.cs" />
      <Compile Include="Assets\MyGame\Weapons\BigBullet\BigBullet.cs" />
+     <Compile Include="Assets\MyGame\Weapons\MiniBullet\MiniBullet.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />

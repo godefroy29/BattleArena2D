@@ -687,7 +687,7 @@ MonoBehaviour:
     type: 2}
   slot2_bullet: {fileID: 1539709941874752, guid: 8d26f659a674a08408e4fb4586d4ca46,
     type: 2}
-  slot3_bullet: {fileID: 1948801351263446, guid: 67047cf40817aa74daa02f611d537e58,
+  slot3_bullet: {fileID: 1457987613362982, guid: 630fd82b7f26aac41b4ae4d430937871,
     type: 2}
   bulletSpeed: 2
   moveSpeed: 5
