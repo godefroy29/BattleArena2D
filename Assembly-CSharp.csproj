@@ -51,13 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Arrow.cs" />
      <Compile Include="Assets\MyGame\Scripts\EnemyIA.cs" />
      <Compile Include="Assets\MyGame\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\MyGame\Scripts\PlayerControl_Weapon.cs" />
      <Compile Include="Assets\MyGame\Scripts\Projectile.cs" />
      <Compile Include="Assets\MyGame\Scripts\Projectile_Ally.cs" />
      <Compile Include="Assets\MyGame\Weapons\_Main\Weapon.cs" />
+     <Compile Include="Assets\MyGame\Weapons\Arrow\Arrow.cs" />
      <Compile Include="Assets\MyGame\Weapons\BigBullet\BigBullet.cs" />
      <Compile Include="Assets\MyGame\Weapons\MiniBullet\MiniBullet.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
