@@ -683,7 +683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c89ae8a104fd2c240ab50d620bece421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slot1_bullet: {fileID: 1996814793856560, guid: 8d15b1d996baeae4bbbb9682c596df03,
+  slot1_bullet: {fileID: 1600631429148592, guid: ebcc10f1e341dff4e96737eb3434fa96,
     type: 2}
   slot2_bullet: {fileID: 1539709941874752, guid: 8d26f659a674a08408e4fb4586d4ca46,
     type: 2}

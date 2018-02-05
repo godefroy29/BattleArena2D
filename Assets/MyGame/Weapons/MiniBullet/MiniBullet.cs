@@ -10,4 +10,7 @@ public class MiniBullet : Weapon {
 		// float totalDuration = parts.main.duration + parts.startLifetime;
 		// Destroy(smokePuff, totalDuration);
     }
+	void Update(){
+		GetComponent<Rigidbody>().AddTorque(0,0,1);
+	}
 }
