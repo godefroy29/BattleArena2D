@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 932330163}
   - component: {fileID: 932330162}
   - component: {fileID: 932330161}
-  - component: {fileID: 932330165}
+  - component: {fileID: 932330160}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -672,6 +672,27 @@ Transform:
   m_Father: {fileID: 1069286018}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &932330160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 932330158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89ae8a104fd2c240ab50d620bece421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slot1_bullet: {fileID: 1996814793856560, guid: 8d15b1d996baeae4bbbb9682c596df03,
+    type: 2}
+  slot2_bullet: {fileID: 1539709941874752, guid: 8d26f659a674a08408e4fb4586d4ca46,
+    type: 2}
+  slot3_bullet: {fileID: 1948801351263446, guid: 67047cf40817aa74daa02f611d537e58,
+    type: 2}
+  bulletSpeed: 2
+  moveSpeed: 5
+  addX: 1
+  fireDelayMillisec: 500
 --- !u!54 &932330161
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -741,23 +762,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 932330158}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &932330165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 932330158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a4c59386d496dd49ab74a81b4558088, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 1360778082422206, guid: 3f6e6c443c2478049bb5599cadff61b5, type: 2}
-  bulletSpeed: 5
-  speedJump: 0.5
-  moveSpeed: 10
-  addX: 0.5
-  fireDelayMillisec: 500
 --- !u!1 &1069286017
 GameObject:
   m_ObjectHideFlags: 0
