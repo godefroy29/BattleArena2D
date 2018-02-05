@@ -685,7 +685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slot1_bullet: {fileID: 1600631429148592, guid: ebcc10f1e341dff4e96737eb3434fa96,
     type: 2}
-  slot2_bullet: {fileID: 1539709941874752, guid: 8d26f659a674a08408e4fb4586d4ca46,
+  slot2_bullet: {fileID: 1816832051629998, guid: 15ddb840d03543942b4089c40b9540b0,
     type: 2}
   slot3_bullet: {fileID: 1457987613362982, guid: 630fd82b7f26aac41b4ae4d430937871,
     type: 2}

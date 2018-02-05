@@ -6,8 +6,8 @@ using UnityEngine;
 public class Weapon : MonoBehaviour {
 
 	private float delay;
-	private float moveSpeed;
-	private float orientationX;
+	protected float moveSpeed;
+	protected float orientationX;
 	private GameObject gameObjectToFollow;
 	private bool freezeRotate;
 	private bool freezeY;
@@ -34,9 +34,12 @@ public class Weapon : MonoBehaviour {
 		this.tagsToDestroy = tagsToDestroy;
 		this.tagsIgnoreCollider = tagsIgnoreCollider;
 		this.orientationX = orientationX;
+	}
+
+	public void StartMove()
+	{
 		if(gameObjectToFollow == null)
 		{
-			//GetComponent<Rigidbody>().AddForce(new Vector3(moveSpeed,0,0), ForceMode.Impulse);
 			GetComponent<Rigidbody>().velocity = new Vector3(orientationX,0,0) * moveSpeed;
 		}
 	}
@@ -57,8 +60,8 @@ public class Weapon : MonoBehaviour {
 		}
     }
 
-	private void setVar()
-	{
-		GetComponent<Rigidbody>().freezeRotation = freezeRotate;
-	}
+	// private void setVar()
+	// {
+	// 	GetComponent<Rigidbody>().freezeRotation = freezeRotate;
+	// }
 }

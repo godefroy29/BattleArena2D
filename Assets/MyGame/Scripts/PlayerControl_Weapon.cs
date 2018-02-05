@@ -74,6 +74,7 @@ public class PlayerControl_Weapon : MonoBehaviour {
             Physics.IgnoreCollision(bulletInstance.GetComponent<Collider>(), GetComponent<Collider>());
             Weapon weaponInstance = bulletInstance.GetComponent<Weapon>();
             weaponInstance.InitVar(fireDelayMillisec, bulletSpeed, directionX, null, true, true, new string[]{"block"},  new string[]{"enemy"},  new string[]{"bulletAlly"});
+            weaponInstance.StartMove();
             Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(),  GetComponent<Collider2D>());
             lastFiredBullet = System.DateTime.Now;
         }

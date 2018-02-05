@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Arrow.cs" />
      <Compile Include="Assets\MyGame\Scripts\EnemyIA.cs" />
      <Compile Include="Assets\MyGame\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\MyGame\Scripts\PlayerControl_Weapon.cs" />
